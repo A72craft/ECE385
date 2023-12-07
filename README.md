@@ -1,3 +1,3 @@
 # ECE385
 
-Not lab 6 but final
+This repository contains the final project, not lab 6, for ECE385.

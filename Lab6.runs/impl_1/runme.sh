@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=E:/Xilinx/Vitis/2022.2/bin;E:/Xilinx/Vivado/2022.2/ids_lite/ISE/bin/nt64;E:/Xilinx/Vivado/2022.2/ids_lite/ISE/lib/nt64:E:/Xilinx/Vivado/2022.2/bin
+  PATH=C:/Xilinx/Vitis/2022.2/bin;C:/Xilinx/Vivado/2022.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2022.2/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2022.2/bin
 else
-  PATH=E:/Xilinx/Vitis/2022.2/bin;E:/Xilinx/Vivado/2022.2/ids_lite/ISE/bin/nt64;E:/Xilinx/Vivado/2022.2/ids_lite/ISE/lib/nt64:E:/Xilinx/Vivado/2022.2/bin:$PATH
+  PATH=C:/Xilinx/Vitis/2022.2/bin;C:/Xilinx/Vivado/2022.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2022.2/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2022.2/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='E:/ECE385/Lab6/Lab6.runs/impl_1'
+HD_PWD='C:/Users/jeilc/Documents/VScode/ECE385/Lab6.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,7 +41,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .init_design.begin.rst
+/bin/touch .write_bitstream.begin.rst
 EAStep vivado -log mb_usb_hdmi_top.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source mb_usb_hdmi_top.tcl -notrace
 
 
