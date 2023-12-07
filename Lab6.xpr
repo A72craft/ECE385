@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="61" Path="E:/ECE385/Lab6/Lab6.xpr">
+<Project Version="7" Minor="61" Path="C:/Users/jeilc/Documents/VScode/ECE385/Lab6.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="827dc15e4d3f467c919d7bafaecacb92"/>
@@ -46,7 +46,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
-    <Option Name="IPRepoPath" Val="C:/Users/Jin/Downloads/RD_hdmi_ip2020/hdmi_tx_1.0"/>
+    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../Jin/Downloads/RD_hdmi_ip2020/hdmi_tx_1.0"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPDefaultOutputPath" Val="$PGENDIR/sources_1"/>
     <Option Name="IPCachePermission" Val="read"/>
@@ -95,32 +95,35 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_dlmb_v10_0/mb_block_dlmb_v10_0.xci">
-          <Proxy FileSetName="mb_block_dlmb_v10_0"/>
+        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_microblaze_0_axi_intc_0/mb_block_microblaze_0_axi_intc_0.xci">
+          <Proxy FileSetName="mb_block_microblaze_0_axi_intc_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_lmb_bram_0/mb_block_lmb_bram_0.xci">
-          <Proxy FileSetName="mb_block_lmb_bram_0"/>
+        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_clk_wiz_1_0/mb_block_clk_wiz_1_0.xci">
+          <Proxy FileSetName="mb_block_clk_wiz_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_mdm_1_0/mb_block_mdm_1_0.xci">
+          <Proxy FileSetName="mb_block_mdm_1_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_microblaze_0_0/mb_block_microblaze_0_0.xci">
           <Proxy FileSetName="mb_block_microblaze_0_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_ilmb_v10_0/mb_block_ilmb_v10_0.xci">
+          <Proxy FileSetName="mb_block_ilmb_v10_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_dlmb_bram_if_cntlr_0/mb_block_dlmb_bram_if_cntlr_0.xci">
           <Proxy FileSetName="mb_block_dlmb_bram_if_cntlr_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_ilmb_bram_if_cntlr_0/mb_block_ilmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="mb_block_ilmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_ilmb_v10_0/mb_block_ilmb_v10_0.xci">
-          <Proxy FileSetName="mb_block_ilmb_v10_0"/>
+        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_dlmb_v10_0/mb_block_dlmb_v10_0.xci">
+          <Proxy FileSetName="mb_block_dlmb_v10_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_axi_quad_spi_0_0/mb_block_axi_quad_spi_0_0.xci">
           <Proxy FileSetName="mb_block_axi_quad_spi_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_axi_timer_0_0/mb_block_axi_timer_0_0.xci">
-          <Proxy FileSetName="mb_block_axi_timer_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_axi_gpio_2_1/mb_block_axi_gpio_2_1.xci">
           <Proxy FileSetName="mb_block_axi_gpio_2_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_axi_timer_0_0/mb_block_axi_timer_0_0.xci">
+          <Proxy FileSetName="mb_block_axi_timer_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_axi_gpio_0_1/mb_block_axi_gpio_0_1.xci">
           <Proxy FileSetName="mb_block_axi_gpio_0_1"/>
@@ -128,20 +131,17 @@
         <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_axi_gpio_1_1/mb_block_axi_gpio_1_1.xci">
           <Proxy FileSetName="mb_block_axi_gpio_1_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_microblaze_0_axi_intc_0/mb_block_microblaze_0_axi_intc_0.xci">
-          <Proxy FileSetName="mb_block_microblaze_0_axi_intc_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_clk_wiz_1_0/mb_block_clk_wiz_1_0.xci">
-          <Proxy FileSetName="mb_block_clk_wiz_1_0"/>
+        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_axi_uartlite_0_0/mb_block_axi_uartlite_0_0.xci">
+          <Proxy FileSetName="mb_block_axi_uartlite_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_rst_clk_wiz_1_100M_0/mb_block_rst_clk_wiz_1_100M_0.xci">
           <Proxy FileSetName="mb_block_rst_clk_wiz_1_100M_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_mdm_1_0/mb_block_mdm_1_0.xci">
-          <Proxy FileSetName="mb_block_mdm_1_0"/>
+        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_lmb_bram_0/mb_block_lmb_bram_0.xci">
+          <Proxy FileSetName="mb_block_lmb_bram_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_axi_uartlite_0_0/mb_block_axi_uartlite_0_0.xci">
-          <Proxy FileSetName="mb_block_axi_uartlite_0_0"/>
+        <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_ilmb_bram_if_cntlr_0/mb_block_ilmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="mb_block_ilmb_bram_if_cntlr_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="mb_block.bd" FileRelPathName="ip/mb_block_xbar_0/mb_block_xbar_0.xci">
           <Proxy FileSetName="mb_block_xbar_0"/>
@@ -149,7 +149,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/design_source/Color_Mapper.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/Jin/Downloads/lab6_2_provided/lab6.2_provided/design_source/Color_Mapper.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../Jin/Downloads/lab6_2_provided/lab6.2_provided/design_source/Color_Mapper.sv"/>
           <Attr Name="ImportTime" Val="1697577631"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -158,7 +158,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/design_source/VGA_controller.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/Jin/Downloads/lab6_2_provided/lab6.2_provided/design_source/VGA_controller.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../Jin/Downloads/lab6_2_provided/lab6.2_provided/design_source/VGA_controller.sv"/>
           <Attr Name="ImportTime" Val="1697577631"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -167,7 +167,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/design_source/ball.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/Jin/Downloads/lab6_2_provided/lab6.2_provided/design_source/ball.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../Jin/Downloads/lab6_2_provided/lab6.2_provided/design_source/ball.sv"/>
           <Attr Name="ImportTime" Val="1697577631"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -176,7 +176,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/Downloads/clk_divider.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/Jin/Downloads/clk_divider.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../Jin/Downloads/clk_divider.sv"/>
           <Attr Name="ImportTime" Val="1697741284"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -185,8 +185,22 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/design_source/hex.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/Jin/Downloads/lab6_2_provided/lab6.2_provided/design_source/hex.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../Jin/Downloads/lab6_2_provided/lab6.2_provided/design_source/hex.sv"/>
           <Attr Name="ImportTime" Val="1697577631"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/spriteData.sv">
+        <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/wallData.sv">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -194,8 +208,32 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/design_source/mb_usb_hdmi_top.sv">
         <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/Jin/Downloads/lab6_2_provided/lab6.2_provided/design_source/mb_usb_hdmi_top.sv"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../Jin/Downloads/lab6_2_provided/lab6.2_provided/design_source/mb_usb_hdmi_top.sv"/>
           <Attr Name="ImportTime" Val="1697577631"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/walls.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/check_walls_row.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/check_walls.sv">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -210,7 +248,7 @@
       <Filter Type="Constrs"/>
       <File Path="$PSRCDIR/constrs_1/imports/pin_assignment/mb_usb_hdmi_top.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="C:/Users/Jin/Downloads/lab6_2_provided/lab6.2_provided/pin_assignment/mb_usb_hdmi_top.xdc"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../Jin/Downloads/lab6_2_provided/lab6.2_provided/pin_assignment/mb_usb_hdmi_top.xdc"/>
           <Attr Name="ImportTime" Val="1697577631"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
